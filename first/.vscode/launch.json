@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "(Windows) Launch debug",
+            "name": "(MAC) Launch debug",
             "type": "cppvsdbg",
             "request": "launch",
             "program": "${workspaceFolder}/../build/debug/${workspaceFolderBasename}",
@@ -18,7 +18,7 @@
         },
 
         {
-            "name": "(Windows) Launch release",
+            "name": "(MAC) Launch release",
             "type": "cppvsdbg",
             "request": "launch",
             "program": "${workspaceFolder}/../build/release/${workspaceFolderBasename}",
