@@ -55,7 +55,8 @@ int bcd_from_int (int Decimal, unsigned char* res2, int size)
 
     for (uint32_t i=0; i<count; i++){
         res2[size-1] = res1[i];
-        if (--size <= 0) ;//break;
+        if (--size <= 0) 
+            ;//break;
     }
     return count;
 }
